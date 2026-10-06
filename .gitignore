@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# App bundle / archives
+*.app
+*.xcarchive
+*.ipa
+
+# Vendored third-party binaries (copied into the bundle at build time)
+Frameworks/
+*.dylib
+
+# Icon generation scratch
+Icon/preview.png
